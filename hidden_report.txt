@@ -1,3 +1,4 @@
+merong
 hidden_report.txt
 accuracy 10.12 batchsize 20 eta 3 epochs 30 hidden_neurons 1 cost_function MSE
 accuracy 90.21 batchsize 20 eta 3 epochs 30 hidden_neurons 10 cost_function MSE
