@@ -1,0 +1,13 @@
+nohidden_report.txt
+accuracy 57 batchsize 1 eta 3 epochs 30
+accuracy 83.83 batchsize 10 eta 3 epochs 30
+accuracy 83.89 batchsize 20 eta 3 epochs 30
+accuracy 83.49 batchsize 30 eta 3 epochs 30
+accuracy 75.74 batchsize 40 eta 3 epochs 30
+accuracy 74.87 batchsize 50 eta 3 epochs 30
+accuracy 65.89 batchsize 60 eta 3 epochs 30
+accuracy 56.21 batchsize 70 eta 3 epochs 30
+accuracy 64.81 batchsize 80 eta 3 epochs 30
+accuracy 55.62 batchsize 90 eta 3 epochs 30
+accuracy 48.71 batchsize 100 eta 3 epochs 30
+accuracy 27.51 batchsize 50 eta 3 epochs 30

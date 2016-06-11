@@ -1,0 +1,121 @@
+hidden_report.txt
+accuracy 10.12 batchsize 20 eta 3 epochs 30 hidden_neurons 1 cost_function MSE
+accuracy 90.21 batchsize 20 eta 3 epochs 30 hidden_neurons 10 cost_function MSE
+accuracy 93.45 batchsize 20 eta 3 epochs 30 hidden_neurons 20 cost_function MSE
+accuracy 94.29 batchsize 20 eta 3 epochs 30 hidden_neurons 30 cost_function MSE
+accuracy 95.27 batchsize 20 eta 3 epochs 30 hidden_neurons 40 cost_function MSE
+accuracy 95.41 batchsize 20 eta 3 epochs 30 hidden_neurons 50 cost_function MSE
+accuracy 95.83 batchsize 20 eta 3 epochs 30 hidden_neurons 60 cost_function MSE
+accuracy 86.53 batchsize 20 eta 3 epochs 30 hidden_neurons 70 cost_function MSE
+accuracy 86.38 batchsize 20 eta 3 epochs 30 hidden_neurons 80 cost_function MSE
+accuracy 95.94 batchsize 20 eta 3 epochs 30 hidden_neurons 90 cost_function MSE
+accuracy 78.8 batchsize 20 eta 3 epochs 30 hidden_neurons 100 cost_function MSE
+
+%% weight & bias initialized to be 1/10*randn
+accuracy 19.23 batchsize 20 eta 3 epochs 30 hidden_neurons 1 cost_function MSE
+accuracy 92.28 batchsize 20 eta 3 epochs 30 hidden_neurons 10 cost_function MSE
+accuracy 94.66 batchsize 20 eta 3 epochs 30 hidden_neurons 20 cost_function MSE
+accuracy 96.62 batchsize 20 eta 3 epochs 30 hidden_neurons 40 cost_function MSE
+accuracy 96.83 batchsize 20 eta 3 epochs 30 hidden_neurons 50 cost_function MSE
+accuracy 97.1 batchsize 20 eta 3 epochs 30 hidden_neurons 60 cost_function MSE
+accuracy 97.32 batchsize 20 eta 3 epochs 30 hidden_neurons 70 cost_function MSE
+accuracy 97.57 batchsize 20 eta 3 epochs 30 hidden_neurons 80 cost_function MSE
+accuracy 97.67 batchsize 20 eta 3 epochs 30 hidden_neurons 90 cost_function MSE
+accuracy 97.68 batchsize 20 eta 3 epochs 30 hidden_neurons 100 cost_function MSE
+
+%% weight & bias initialized to be 1/100*randn
+accuracy 21.17 batchsize 20 eta 3 epochs 30 hidden_neurons 1 cost_function MSE
+accuracy 91.83 batchsize 20 eta 3 epochs 30 hidden_neurons 10 cost_function MSE
+accuracy 94.66 batchsize 20 eta 3 epochs 30 hidden_neurons 20 cost_function MSE
+accuracy 96.36 batchsize 20 eta 3 epochs 30 hidden_neurons 40 cost_function MSE
+accuracy 96.95 batchsize 20 eta 3 epochs 30 hidden_neurons 50 cost_function MSE
+accuracy 97.16 batchsize 20 eta 3 epochs 30 hidden_neurons 60 cost_function MSE
+accuracy 97.44 batchsize 20 eta 3 epochs 30 hidden_neurons 70 cost_function MSE
+accuracy 97.44 batchsize 20 eta 3 epochs 30 hidden_neurons 80 cost_function MSE
+accuracy 97.66 batchsize 20 eta 3 epochs 30 hidden_neurons 90 cost_function MSE
+accuracy 97.7 batchsize 20 eta 3 epochs 30 hidden_neurons 100 cost_function MSE
+
+%% Cost function switched into cross-entropy
+accuracy 90.33 batchsize 20 eta 3 epochs 30 hidden_neurons 10 cost_function cross_entropy
+accuracy 92.58 batchsize 20 eta 3 epochs 30 hidden_neurons 20 cost_function cross_entropy
+accuracy 92.06 batchsize 20 eta 3 epochs 30 hidden_neurons 30 cost_function cross_entropy
+accuracy 91.48 batchsize 20 eta 3 epochs 30 hidden_neurons 40 cost_function cross_entropy
+accuracy 94.68 batchsize 20 eta 3 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 91.72 batchsize 20 eta 3 epochs 30 hidden_neurons 60 cost_function cross_entropy
+accuracy 94.01 batchsize 20 eta 3 epochs 30 hidden_neurons 70 cost_function cross_entropy
+accuracy 92.04 batchsize 20 eta 3 epochs 30 hidden_neurons 80 cost_function cross_entropy
+accuracy 92.61 batchsize 20 eta 3 epochs 30 hidden_neurons 90 cost_function cross_entropy
+accuracy 91.22 batchsize 20 eta 3 epochs 30 hidden_neurons 100 cost_function cross_entropy
+
+%% Eta variation made
+accuracy 93.86 batchsize 20 eta 0.01 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.88 batchsize 20 eta 0.1 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 97.25 batchsize 20 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.93 batchsize 20 eta 0.5 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.53 batchsize 20 eta 1.5 epochs 30 hidden_neurons 50 cost_function cross_entropy
+
+%% Cost function switched into negative log-likelihood
+accuracy 96.72 batchsize 20 eta 0.05 epochs 30 hidden_neurons 50 cost_function neg_log
+accuracy 97.12 batchsize 20 eta 0.1 epochs 30 hidden_neurons 50 cost_function neg_log
+accuracy 97 batchsize 20 eta 0.15 epochs 30 hidden_neurons 50 cost_function neg_log
+accuracy 97.32 batchsize 20 eta 0.2 epochs 30 hidden_neurons 50 cost_function neg_log
+accuracy 97.18 batchsize 20 eta 0.25 epochs 30 hidden_neurons 50 cost_function neg_log
+accuracy 96.97 batchsize 20 eta 0.5 epochs 30 hidden_neurons 50 cost_function neg_log
+
+%% Number of hidden neurons controlled
+accuracy 92.72 batchsize 20 eta 0.2 epochs 30 hidden_neurons 10 cost_function neg_log
+accuracy 95.16 batchsize 20 eta 0.2 epochs 30 hidden_neurons 20 cost_function neg_log
+accuracy 96.44 batchsize 20 eta 0.2 epochs 30 hidden_neurons 30 cost_function neg_log
+accuracy 96.72 batchsize 20 eta 0.2 epochs 30 hidden_neurons 40 cost_function neg_log
+accuracy 97.23 batchsize 20 eta 0.2 epochs 30 hidden_neurons 50 cost_function neg_log
+accuracy 97.38 batchsize 20 eta 0.2 epochs 30 hidden_neurons 60 cost_function neg_log
+accuracy 97.74 batchsize 20 eta 0.2 epochs 30 hidden_neurons 70 cost_function neg_log
+accuracy 97.67 batchsize 20 eta 0.2 epochs 30 hidden_neurons 80 cost_function neg_log
+accuracy 97.85 batchsize 20 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.76 batchsize 20 eta 0.2 epochs 30 hidden_neurons 100 cost_function neg_log
+
+%% Mini-batch size controlled
+accuracy 97.82 batchsize 10 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.61 batchsize 20 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.66 batchsize 30 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.5 batchsize 40 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.35 batchsize 50 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.39 batchsize 60 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.17 batchsize 70 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 96.94 batchsize 80 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 96.78 batchsize 90 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 96.83 batchsize 100 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+
+%% Mini-batch size controlled & cost function as cross entropy
+accuracy 97.09 batchsize 10 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.92 batchsize 20 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 97.05 batchsize 30 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.96 batchsize 40 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.92 batchsize 50 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.61 batchsize 60 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.5 batchsize 70 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.75 batchsize 80 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+
+%% Mini-batch size controlled (1-10) & cost function as neg_log
+accuracy 96.95 batchsize 1 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.53 batchsize 2 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.76 batchsize 3 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.91 batchsize 4 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.69 batchsize 5 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.86 batchsize 6 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.88 batchsize 7 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.84 batchsize 8 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.77 batchsize 9 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+accuracy 97.74 batchsize 10 eta 0.2 epochs 30 hidden_neurons 90 cost_function neg_log
+
+%% Mini-batch size controlled (1-10) & cost function as cross_entropy
+accuracy 96.21 batchsize 1 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.69 batchsize 2 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.74 batchsize 3 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.6 batchsize 4 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.81 batchsize 5 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.83 batchsize 6 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 97.14 batchsize 7 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.97 batchsize 8 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.91 batchsize 9 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
+accuracy 96.81 batchsize 10 eta 0.2 epochs 30 hidden_neurons 50 cost_function cross_entropy
